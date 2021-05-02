@@ -1,0 +1,53 @@
+.about {
+  font-size: 18;
+  font-weight: 300;
+  color: grey;
+  margin-bottom: 12px;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.body-container {
+  background-color: lightgrey;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(../web-images/main-img-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.body-content {
+  max-width: 480px;
+  padding: 124px;
+}
+
+.name {
+  font-size: 48px;
+  margin: 4px 0px;
+}
+
+.profile-avatar {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 4px 4px 4px 4px black;
+}
+
+.topic-learning-head {
+  font-size: 24px;
+  margin: 4px 0px;
+}
+
+.topic-learning-list {
+  color: grey;
+  margin: 4px 0px;
+}
